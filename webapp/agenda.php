@@ -52,6 +52,9 @@
         <div style="text-align:right;">
             <button onclick="location.href='insertar.php'" type="button" class="btn btn-success" style="background-color:gray;">Insertar</button>
         </div>
+        <div style="text-align:left;">
+            <input onclick="window.location.href = '/index.php'" type="button" value="Salir" class="btn btn-success"style=" background-color:rgb(243, 10, 10);">
+        </div>
     </div>
 </body>
 </html>

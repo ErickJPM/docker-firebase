@@ -25,23 +25,24 @@
 				<h3>Iniciar Sesión</h3>
 			</div>
 			<div class="card-body">
-				<form>
+				<form method="post" action="actionslogin.php">
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
 						</div>
-						<input type="text" class="form-control" placeholder="e-mail">
+						<input type="text" class="form-control" placeholder="e-mail" name="correo">
 						
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-key"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="password">
+						<input type="password" class="form-control" placeholder="password" name="contrasena">
 					</div>
 					<div class="form-group">
-						<input type="submit" value="Login" class="btn float-right login_btn">
+						<input type="submit" value="Login" class="btn float-right login_btn" >
 					</div>
+					
 				</form>
 			</div>
 			<div class="fondo" >

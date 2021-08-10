@@ -27,6 +27,9 @@
             <button type="submit" class="btn btn-primary">Insertar</button>
         </form>
     </div>
+    <div style="text-align:right;">
+            <button onclick="location.href='agenda.php'" type="button" class="btn btn-success" style="background-color:rgb(243, 10, 10);">Regresar a Agenda</button>
+    </div>
     
 </body>
 </html>
