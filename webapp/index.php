@@ -1,3 +1,10 @@
+<?php
+$error=$_POST['error'];
+if($error=="error"){
+	echo "<script>alert('tus datos fueron incorrectos')</script>";	
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,7 +37,7 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
 						</div>
-						<input type="text" class="form-control" placeholder="e-mail" name="correo">
+						<input type="text" class="form-control" placeholder="e-mail" name="correo" >
 						
 					</div>
 					<div class="input-group form-group">
